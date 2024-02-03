@@ -1,11 +1,16 @@
+import UserContextProvider from './context/UserContextProvider'
+import Login from './components/Login'
+import Profile from './components/Profile'
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <h1>React useContext</h1>
-    </>
+    <UserContextProvider>
+      <Login />
+      {" "}
+      <Profile />
+    </UserContextProvider>
   )
 }
 
