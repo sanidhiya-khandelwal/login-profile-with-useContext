@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react'
 import UserContext from '../context/UserContext';
+import '../App.css'
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -13,7 +14,7 @@ const Login = () => {
     }
 
     return (
-        <div>
+        <div class="login-container">
             <h2>Login</h2>
             <input type="text"
                 value={username}
