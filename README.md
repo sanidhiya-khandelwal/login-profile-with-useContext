@@ -1,8 +1,9 @@
-# React + Vite
+learning React's powerful state management using the useContext hook with this simple yet insightful project. This project demonstrates the fundamentals of how to send and receive data within a React application by creating a basic login and profile system.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔑 Key Features:
 
-Currently, two official plugins are available:
+UserContext Management: Dive into the world of useContext to efficiently manage global state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Login Simulation: Experience the simulation of a login action, understanding how to use useContext to update the global state with user data.
+
+Dynamic Profile Display: Explore how to dynamically display user profile information based on the global state managed by the useContext hook.
